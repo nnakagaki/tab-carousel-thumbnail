@@ -14,6 +14,7 @@ body {
 
 main {
   border: 4px solid blue;
+  border-radius: 20px;
   margin: 50px auto;
   width: 500px;
   height: 600px;
@@ -45,6 +46,11 @@ section.gutter {
 
 section.gutter img {
   display: block;
+}
+
+section.gutter img:hover {
+  background: url('img/imgres.jpg');
+  background-size: 100%;
 }
 
 button {
