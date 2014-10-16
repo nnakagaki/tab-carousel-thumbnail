@@ -1,0 +1,67 @@
+html, body, ul, li, div, p, a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  border: 4px solid blue;
+  margin: 50px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+
+li {
+  list-style: none;
+  float: left;
+  width: 100px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  text-align: center;
+  background: Blue;
+}
+
+li a {
+  text-align: center;
+  display: block;
+  width: 97px;
+  padding: 5px 0;
+  margin-right: 3px;
+  border-radius: 10px 10px 0 0;
+  background: LightBlue;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+p {
+  margin: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li a.active {
+  background: AquaMarine;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+p.tab-pane {
+  display: none;
+}
+
+p.tab-pane.transitioning{
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+p.tab-pane.active {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s, transform 0.5s;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>My Cool Website</title>
+  <script src="../jquery-1.11.1.js"></script>
+
+  <script src="./thumbnail.js"></script>
+  <link href="./thumbnail.css" rel="stylesheet" type="text/css">
+</head>
+
+   <script>
+    $(function() {
+      $('.thumbnail').thumbnail();
+    })
+   </script>
+
+<body>
+  <main class="thumbnail">
+    <section class="active"></section>
+    <button class="left"><</button>
+    <section class="gutter"></section>
+    <button class="right">></button>
+
+    <nav class="gutter-images">
+      <img src="img/001.png" alt="001">
+      <img src="img/002.png" alt="002">
+      <img src="img/003.png" alt="003">
+      <img src="img/004.png" alt="004">
+      <img src="img/005.png" alt="005">
+      <img src="img/006.png" alt="006">
+      <img src="img/007.png" alt="007">
+      <img src="img/008.png" alt="008">
+      <img src="img/009.png" alt="009">
+      <img src="img/012.png" alt="012">
+      <img src="img/025.png" alt="025">
+      <img src="img/051.png" alt="051">
+    </nav>
+  </main>
+</body>
